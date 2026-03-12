@@ -1,8 +1,23 @@
 # Main script: Compare NumPy vs Python Lists
 import numpy as np
 import time
+from pathlib import Path
 from custom_math import operations # may fail: check PYTHONPATH!
 
+# # FIX: Add custom_math to PYTHONPATH if not already present
+# import sys
+
+# module_dir = Path(".").resolve() / "handson-1"
+# if str(module_dir) not in sys.path:
+# 	sys.path.insert(0, str(module_dir))
+# try:
+# 	from custom_math import operations
+# except ImportError as e:
+# 	print(f"Error: Could not import custom_math module. {e}")
+# 	print(f"Module directory: {module_dir}")
+# 	print(f"PYTHONPATH: {sys.path}")
+# 	sys.exit(1)
+	
 size = 1_000_000
 
 # NumPy array

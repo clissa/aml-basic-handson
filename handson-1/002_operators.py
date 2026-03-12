@@ -14,6 +14,9 @@ print(4 not in x) # True
 # Identity Operators
 y = x
 print(x is y)  # True (same object reference)
+z = [1, 2, 3]
+print(x == z)  # True (same values)
+print(x is z)  # False (different object reference)
 
 z = [1, 2, 3]
 if x is z:
