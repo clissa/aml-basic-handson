@@ -1,7 +1,6 @@
 # Data and miscellaneous files to ignore
 data/
 Lectures/
-Notebooks/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
