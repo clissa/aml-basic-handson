@@ -3,3 +3,4 @@ matplotlib
 plotly
 scikit-learn
 numpy
+jupyter
