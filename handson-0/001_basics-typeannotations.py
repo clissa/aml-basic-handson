@@ -2,7 +2,7 @@
 
 # Dynamic typing (no need to declare types)
 name: str = "Alice"  # String
-age: int = 25        # Integer
+age: int = "twentyfive"  # Integer
 height: float = 1.68   # Float
 is_student: bool = True  # Boolean
 

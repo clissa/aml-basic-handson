@@ -6,6 +6,7 @@ from custom_math import operations # may fail: check PYTHONPATH!
 
 # # FIX: Add custom_math to PYTHONPATH if not already present
 # import sys
+# sys.path
 
 # module_dir = Path(".").resolve() / "handson-0"
 # if str(module_dir) not in sys.path:
@@ -13,7 +14,7 @@ from custom_math import operations # may fail: check PYTHONPATH!
 # try:
 # 	from custom_math import operations
 # except ImportError as e:
-# 	print(f"Error: Could not import custom_math module. {e}")
+	# print(f"Error: Could not import custom_math module. {e}")
 # 	print(f"Module directory: {module_dir}")
 # 	print(f"PYTHONPATH: {sys.path}")
 # 	sys.exit(1)

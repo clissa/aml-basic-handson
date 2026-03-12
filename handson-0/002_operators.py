@@ -15,8 +15,12 @@ print(4 not in x) # True
 y = x
 print(x is y)  # True (same object reference)
 z = [1, 2, 3]
+z = x.copy()
 print(x == z)  # True (same values)
 print(x is z)  # False (different object reference)
+
+y.append(4)
+print(x)
 
 z = [1, 2, 3]
 if x is z:

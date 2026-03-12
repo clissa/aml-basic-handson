@@ -2,7 +2,7 @@
 
 # Dynamic typing (no need to declare types)
 name = "Alice"  # String
-second_name = 'Alice'
+second_name = 'Bob'
 age = 25        # Integer
 height = 1.68   # Float
 is_student = True  # Boolean
