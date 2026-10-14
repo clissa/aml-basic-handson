@@ -16,10 +16,10 @@ coordinates = (10, 20)
 student = {"name": "Alice", "age": 25, "field": "Bioinformatics"}
 
 # Control flow
-if age > 30:
+if age < 30:
     print(f"{name} is young!")
 else:
-    print("not true...")
+    print("Condition for young people not met...")
 
 # Looping through a list
 for fruit in fruits:

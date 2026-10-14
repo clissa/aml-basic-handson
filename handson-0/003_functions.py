@@ -1,5 +1,5 @@
 addends: list = [0, 1, 2, 3, 4, 5]
-course_title: str = "Welcome to AML! Hope you enjoy :)"
+course_title: str = "Welcome to AML! Hope you enjoy the course :)"
 
 ### Standard functions
 sum(addends)
@@ -32,10 +32,11 @@ def type_annotated_subtract_numbers(a: int, b: int) -> int:
     return res
 
 typed_result = type_annotated_subtract_numbers(8, 3)
+print(f"{typed_result=}")
 
 # but it works even if we mess up
 typed_result = type_annotated_subtract_numbers(1_000_000, 987_654_321.12)
-
+print(f"{typed_result=}")
 
 # Function with default parameter
 def greet_user(name="Guest"):
