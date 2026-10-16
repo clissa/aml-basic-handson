@@ -5,12 +5,12 @@ from pathlib import Path
 from custom_math import operations # may fail: check PYTHONPATH!
 
 # # FIX: Add custom_math to PYTHONPATH if not already present
-# import sys
-# sys.path
+import sys
+sys.path
 
-# module_dir = Path(".").resolve() / "handson-0"
-# if str(module_dir) not in sys.path:
-# 	sys.path.insert(0, str(module_dir))
+module_dir = Path(".").resolve() / "handson-0"
+if str(module_dir) not in sys.path:
+	sys.path.insert(0, str(module_dir))
 # try:
 # 	from custom_math import operations
 # except ImportError as e:

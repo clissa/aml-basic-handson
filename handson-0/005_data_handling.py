@@ -5,8 +5,8 @@ outpath.mkdir(parents=True, exist_ok=True)
 # Writing to a file
 file = open(outpath / "attendance.txt", "w")
 file.write("Name,Surname,Date,Status\n")
-file.write("Alice,Smith,2024-03-10,Present\n")
-file.write("Bob,Johnson,2024-03-10,Absent\n")
+file.write("Alice,Smith,2026-10-15,Present\n")
+file.write("Bob,Johnson,2026-10-15,Absent\n")
 file.close()
 
 # Reading from the file
@@ -22,6 +22,10 @@ with open(outpath / "attendance.txt", "w") as file:
     file.write("Name,Surname,Date,Status\n")
     file.write("Alice,Smith,2024-03-10,Present\n")
     file.write("Bob,Johnson,2024-03-10,Absent\n")
+
+# open in append mode and add text to previous file
+with open(outpath / "attendance.txt", "a") as file:
+    file.write("Tim,Carlson,2026-10-15,Present\n")
 
 # Reading using "with"
 with open(outpath / "attendance.txt", "r") as file:

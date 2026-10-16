@@ -12,6 +12,7 @@ print(course_title.upper())
 
 # Function without parameters
 def greet():
+    print("First instruction")
     print("Hello, welcome to AML course!\nDo you have any question?")
 
 
@@ -20,6 +21,8 @@ greet()  # Calling the function
 
 # Function with parameters and return value
 def subtract_numbers(a, b):
+    print(a)
+    print(b)
     return a - b
 
 result = subtract_numbers(5, 7)
